@@ -9,3 +9,7 @@
 - [Transfer Source](./Source.md)
 - [Transfer Target](./Target.md)
 - [Logging](./Logging.md)
+
+**Other**
+
+- [Changelog](./Changelog.md)

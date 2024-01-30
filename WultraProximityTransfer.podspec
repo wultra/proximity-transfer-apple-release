@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                   = "WultraProximityTransfer"
-  s.version                = "0.9.9"
+  s.version                = "1.0.0"
   s.summary                = "Bluetooth Proximity Transfer by Wultra"
   s.homepage               = "https://www.wultra.com/"
   s.author                 = { 'Wultra s.r.o.' => 'support@wultra.com' }
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   LICENSE
   }
   s.prepare_command = <<-CMD
-      ./prepare.sh 0.9.9 2d3b6a26d32c7f2ebaef3fa00cfb095dcf0a1b629803ffed661518652b908902
+      ./prepare.sh 1.0.0 e89df5a7ae820338e5c1cb8f798d26520270657c38068ac2ef9647d052956cc0
   CMD
 end
