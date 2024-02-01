@@ -20,7 +20,6 @@ class MySampleTarget: WPTTargetDelegate {
 
     let config = WPTConfig(
         serviceUUID: UUID(uuidString: "21f8190c-e4bc-11ed-b5ea-0242ac120001")!, 
-        characteristicUUID: UUID(uuidString: "21f8190c-e4bc-11ed-b5ea-0242ac120002")!, 
         coder: WPTAESCoder(
             salt: "MyApplicationDemoSalt!".data(using: .utf8)!, // static data
             iv: Data(base64Encoded: "7x9ZEvEVf4IqlBxuYmzKhw==")! // 16 bytes encoded in Base64

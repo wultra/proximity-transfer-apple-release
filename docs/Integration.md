@@ -1,4 +1,4 @@
-# Installation
+# Integration
 
 ## Supported operating systems
 

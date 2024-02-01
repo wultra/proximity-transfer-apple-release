@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WultraProximityTransfer",
-            url: "https://wultra.jfrog.io/artifactory/proximity-transfer-apple-release/WultraProximityTransfer-1.0.0.xcframework.zip",
-            checksum: "e89df5a7ae820338e5c1cb8f798d26520270657c38068ac2ef9647d052956cc0"
+            url: "https://wultra.jfrog.io/artifactory/proximity-transfer-apple-release/WultraProximityTransfer-1.0.1.xcframework.zip",
+            checksum: "e7ae64ed758d91bff0f57429d2994b506beb1c283ac076b525dcdfe6cbd28d9b"
         )
     ],
     swiftLanguageVersions: [.v5]

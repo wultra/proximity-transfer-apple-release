@@ -11,7 +11,6 @@ The same configuration also needs to be implemented on Android.
 ## Configuration items
 
 - `serviceUUID` - UUID used for the Bluetooth service
-- `characteristicUUID` - UUID used for the Bluetooth connection
 - `coder` - will provide encryption and decryption for the transfer
 
 ## Coder
@@ -26,7 +25,6 @@ Currently, only one coder is available `WPTAESCoder`. To configure this coder, y
 ```swift
 let config = WPTConfig(
     serviceUUID: UUID(uuidString: "21f8190c-e4bc-11ed-b5ea-0242ac120001")!, 
-    characteristicUUID: UUID(uuidString: "21f8190c-e4bc-11ed-b5ea-0242ac120002")!, 
     coder: WPTAESCoder(
         salt: "MyApplicationDemoSalt!".data(using: .utf8)!, // static data
         iv: Data(base64Encoded: "7x9ZEvEVf4IqlBxuYmzKhw==")! // 16 bytes encoded in Base64

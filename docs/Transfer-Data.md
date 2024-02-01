@@ -38,7 +38,7 @@ The string above is then:
 
 The final QR code for such data might look like this:
 
-<p align="left"><img src="res/qr.jpg" alt="Wultra Proximity Transfer SDK for Apple platforms intro illustration" width="200" /></p>
+<p align="left"><img src="res/qr.jpg" alt="Final transfer QR code sample" width="200" /></p>
 
 ## Read next
 
